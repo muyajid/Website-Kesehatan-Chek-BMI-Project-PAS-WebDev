@@ -1,0 +1,420 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#content {
+    background-color: #0288d1;
+}
+
+/*Ini style bagian <main>*/
+#content main {
+    padding: 200px 50px 100px 50px;
+    margin: 0 60px;
+    align-items: center;
+}
+
+#content main img {
+    float: right;
+    margin: -150px 0 0 0;
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px black;
+    border: 5px solid #b3e5fc;
+}
+
+#content main h1 {
+    color: white;
+    font-family: 'poppins';
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#content main h2 {
+    color: #b3e5fc;
+    font-family: 'poppins';
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: -10px 0 30px 0;
+}
+
+#content main a {
+    background-color: #81d5fa;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: #026aa2;
+    text-decoration: none;
+    font-family: 'poppins';
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+#content main #link_bmi {
+    padding: 15px 50px;
+}
+
+#content main a:hover {
+    background-color: #b3e5fc;
+}
+
+/*ini style bagian article <apaitustunting>*/
+#content #apaitustunting {
+    margin: 100px 60px 100px 60px;
+    padding: 50px 50px 0 50px;
+    align-items: center;
+}
+
+#apaitustunting section {
+    padding: 100px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #28b6f6;
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px black;
+}
+
+#apaitustunting section #text_container_apaitustunting {
+    margin: 0 40px;
+}
+
+#apaitustunting section #text_container_apaitustunting h1 {
+    color: white;
+    font-family: 'poppins';
+    font-size: xx-large;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+#apaitustunting section #text_container_apaitustunting p {
+    color: white;
+    font-family: 'poppins';
+    font-size: 14.5px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+#apaitustunting section img {
+    margin: 0 40px;
+    border-radius: 10px;
+    border: 5px solid #28b6f6;
+    box-shadow: 0px 2px 15px black;
+}
+
+#apaitustunting section a {
+    background-color: #81d5fa;
+    padding: 10px 45px;
+    border-radius: 5px;
+    color: #026aa2;
+    font-family: 'poppins';
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+    box-shadow: 0px 0.5px 5px black;
+}
+
+#apaitustunting section a:hover {
+    background-color: #b3e5fc;
+}
+
+/*Ini style bagian article #ciriciristunting*/
+#content #ciriciristunting {
+    margin: 0 60px;
+    padding: 0 50px 50px 50px;
+}
+
+#content #ciriciristunting section {
+    padding: 150px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #28b6f6;
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px black;
+}
+
+#content #ciriciristunting section #text_container_ciriciristunting {
+    margin: 0 100px 0 100px;
+}
+
+#content #ciriciristunting section ul {
+    margin: 0 100px 0 0;
+}
+
+#content #ciriciristunting section #text_container_ciriciristunting h1 {
+    color: white;
+    font-family: 'poppins';
+    font-weight: bold;
+    font-size: xx-large;
+    text-transform: capitalize;
+    margin-bottom: -2px;
+}
+
+#content #ciriciristunting section #text_container_ciriciristunting h2 {
+    color: #b3e5fc;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#content #ciriciristunting section #text_container_ciriciristunting a {
+    background-color: #81d5fa;
+    color: #026aa2;
+    padding: 10px 40px;
+    border-radius: 5px;
+    box-shadow: 0px 0.5px 5px black;
+    font-family: 'poppins';
+    font-weight: bold;
+    font-size: medium;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+#content #ciriciristunting section #text_container_ciriciristunting a:hover {
+    background-color: #b3e5fc;
+}
+
+#content #ciriciristunting section ul {
+    line-height: 15px;
+    list-style-image: url(aset/material-symbols--check-small-rounded.svg);
+    align-items: center;
+    justify-content: center;
+}
+
+#content #ciriciristunting section ul li {
+    color: white;
+    font-family: 'poppins';
+    font-size: medium;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+/*Ini style <article> #penyebabstunting*/
+#content #penyebabstunting {
+    padding: 100px 50px;
+    margin: 0 60px;
+}
+
+#penyebabstunting section {
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    background-color: #28b6f6;
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px black;
+}
+
+#penyebabstunting section h1 {
+    color: white;
+    font-family: 'poppins';
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#penyebabstunting section .detail_penyebabstunting {
+    background-color: #81d5fa;
+    border-radius: 10px;
+    box-shadow: 0 0.5px 5px black;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px 40px;
+}
+
+#penyebabstunting section .detail_penyebabstunting summary {
+    color: #026aa2;
+    font-family: 'poppins';
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#penyebabstunting section .detail_penyebabstunting p {
+    color: #026aa2;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'poppins';
+    font-size: 13.5px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/*Ini style <article> #caramencegahstunting*/
+#content #caramencegahstunting {
+    padding: 0 50px 100px 50px;
+    margin: 0 60px;
+}
+
+#caramencegahstunting h1 {
+    color: white;
+    font-family: 'poppins';
+    font-size: xx-large;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#caramencegahstunting .section_cegahstunting {
+    padding: 40px 50px;
+    margin-bottom: 20px;
+    background-color: #28b6f6;
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px black;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#caramencegahstunting .section_cegahstunting h2 {
+    color: white;
+    font-family: 'poppins';
+    font-weight: bold;
+    font-size: x-large;
+    text-transform: capitalize;
+    margin: 0 50px 10px 50px;
+}
+
+#caramencegahstunting .section_cegahstunting ul {
+    line-height: 15.5px;
+    list-style-image: url(aset/material-symbols--check-small-rounded.svg);
+    margin: 0 85px 0 100px;
+}
+
+#caramencegahstunting .section_cegahstunting ul li {
+    color: white;
+    font-family: 'poppins';
+    font-size: medium;
+    line-height: 25px;
+    font-weight: 250;
+    text-transform: capitalize;
+}
+
+#caramencegahstunting .section_cegahstunting:hover {
+    background-color: #2092c5;
+}
+
+/*Ini style <article> #calculatorBMI*/
+#content #calculatorBMI {
+    padding: 100px 50px 100px 50px;
+    margin: 0 69px;
+
+}
+
+#calculatorBMI section {
+    padding: 80px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+    background-color: #28b6f6;
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px black;
+}
+#calculatorBMI section #text_container_BMI {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+#calculatorBMI section #text_container_BMI h1 {
+    color: white;
+    font-family: 'poppins';
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+#calculatorBMI section #text_container_BMI h2 {
+    color: white;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+}
+
+#calculatorBMI section #calculator_container {
+    align-items: center;
+    justify-content: center;
+}
+
+#calculatorBMI section #calculator_container label {
+    color: white;
+    font-family: 'poppins';
+    font-size: small;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#calculatorBMI section #calculator_container #inputBeratBadan {
+    width: 220px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'poppins';
+    padding: 10px;
+}
+
+#calculatorBMI section #calculator_container #inputTinggiBadan {
+    width: 220px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'poppins';
+    padding: 10px;
+}
+
+#calculatorBMI section #calculator_container #hasilBMI {
+    width: 220px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'poppins';
+    padding: 10px;
+}
+#calculatorBMI section #calculator_container #hitungBMI {
+    width: 150px;
+    height: 40px;
+    margin: 10px 0 0 35px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0.5px 5px black;
+}
+/*Style Bagian Footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 50px;
+    background-color: #b3e5fc;
+}
+footer h1 {
+    color: #026aa2;
+    font-family: 'poppins';
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: italic;
+}
